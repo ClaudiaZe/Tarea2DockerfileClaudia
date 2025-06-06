@@ -1,0 +1,153 @@
+
+
+	background-color: coral;
+	display: flex;*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: skyblue;
+	text-align: center;
+}
+#global{
+	margin: 0px auto;
+	width: 85%;
+	background-color: white;
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+
+}
+#cabecera{
+	/*background-color: yellow;*/
+	display: flex;
+	flex-direction: column;
+	grid-column: 1 / -1;
+	/*justify-content: center;*/
+	/*justify-item: stretch;*/
+	align-items: center;
+}
+#cabecera h1{
+	/*background-color: green;*/
+	width: 90%;
+	text-align: center;
+	font-size: 6em;
+	margin-top: 20px;
+	color: brown;
+	text-shadow: 5px 5px 10px black;
+}
+#cabecera h2{
+	/*background-color: burlywood;*/
+	/*display: block;*/
+	width: 80%;
+	margin-bottom: 20px;
+	text-align: right;
+	font-style: italic;
+}
+#menu{
+	/*background-color: greenyellow;*/
+	display: flex;
+	grid-column: 1 / -1;
+}
+#menu ul{
+	list-style: none;
+	/*background-color: aqua;*/
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 5px;
+}
+#menu ul li{
+	list-style: none;
+	/*background-color: coral;*/
+	display: flex;
+}
+#menu ul li a{
+	text-decoration: none;
+	background-color: #B22222;
+	width: 100%;
+	font-size: 20px;
+	padding: 20px;
+	border-radius: 20px 0px 20px 0px;
+	margin-bottom: 20px;
+	color: white;
+	/*text-transform: uppercase;*/
+}
+#menu ul li a:hover{
+	background-color: #708090;
+	color: #B22222;
+}
+#enlaces{
+	background-color: pink;
+	display: flex;
+	grid-column: 1 / 2;
+}
+#principal{
+	background-color: blanchedalmond;
+	display: flex;
+	grid-column: 2 / 3;
+}
+#articulo{
+	background-color: black;
+	width: 100%;
+	
+
+}
+#titulo{
+	display:flex;
+	flex-direction:column;
+	background-color: red;
+	width: 100%;
+	margin-bottom: 20px;
+	text-align: right;
+}
+#titulo h3{
+	width: 90%;
+	text-align: center;
+	font-size: 30px;
+	background-color: green;
+	margin: 0px;
+	padding: 0px;
+}
+#titulo h4{
+	width: 90%;
+	text-align: right;
+	font-size: 25px;
+	background-color: yellow;
+		margin: 0px;
+	padding: 0px;
+}
+#titulo h5{
+	width: 90%;
+	text-align: right;
+	font-size: 20px;
+}
+#galeria{
+	width: 100%;
+
+}
+#galeria img{
+	border-radius: 10px;
+}
+#texto{
+	width: 100%;
+	display: flex;
+}
+#texto p{
+
+	width: 50%;
+	background-color: white;
+	border-radius: 8px;
+
+}
+#texto img{
+	border-radius: 10px;
+	padding: 10px;
+}
+#interes{
+	background-color: plum;
+	display: flex;
+	grid-column: 3 / -1;
+}
+#pie{
+	grid-column: 1 / -1;
+}
